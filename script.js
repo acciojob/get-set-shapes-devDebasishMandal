@@ -14,8 +14,8 @@ class Rectangle {
 	}
 
 	getArea(){
-		let area=this._width*this._length;
-		return area;
+
+		return this._width*this._length;
 	}
 }
 
@@ -24,8 +24,8 @@ constructor(side){
 	super(side,side);
 }
 	getPerimeter(){
-		let peri=4*_side;
-		return peri;
+		
+		return 4*_side;
 	}
 
 	
